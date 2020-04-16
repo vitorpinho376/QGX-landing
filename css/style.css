@@ -3010,6 +3010,13 @@ body {
     color: rgba(255, 255, 255, 0.64); }
     .link.subtle-l:hover {
       color: white; }
+  .link.social-link {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 16px;
+    border-radius: 8px; }
+    .link.social-link:hover {
+      color: white; }
 
 header {
   position: absolute;
