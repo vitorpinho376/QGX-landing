@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="68px" viewBox="0 0 82 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon-prepago</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 67.2186838 80.8008929 67.2186838 80.8008929 0.000595588235 0 0.000595588235"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing---QGX" transform="translate(-158.000000, -3682.000000)">
+            <g id="Group-11" transform="translate(146.000000, 3667.000000)">
+                <g id="Outlined-/-Icon" transform="translate(5.000000, 0.000000)">
+                    <g id="icon" transform="translate(7.500000, 15.000000)">
+                        <path d="M79.8189464,63.3660221 C79.8189464,64.9463162 78.5519821,66.2248456 76.990375,66.2248456 L17.562875,66.2248456 C15.9993036,66.2248456 14.7323393,64.9463162 14.7323393,63.3660221 L14.7323393,23.324625 C14.7323393,21.7443309 15.9993036,20.4638162 17.562875,20.4638162 L76.990375,20.4638162 C78.5519821,20.4638162 79.8189464,21.7443309 79.8189464,23.324625 L79.8189464,63.3660221 Z" id="Stroke-1" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="21.8073036" y1="42.2335588" x2="68.484625" y2="42.2335588" id="Stroke-3" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="21.8073036" y1="53.9108603" x2="39.4190893" y2="53.9108603" id="Stroke-5" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <polygon id="Stroke-7" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="21.8075 35.2693456 33.605 35.2693456 33.605 28.0488309 21.8075 28.0488309"></polygon>
+                        <path d="M56.3913036,54.0252132 C56.3913036,56.3877132 54.4957679,58.3035221 52.1582679,58.3035221 C49.8188036,58.3035221 47.9213036,56.3877132 47.9213036,54.0252132 C47.9213036,51.6627132 49.8188036,49.7449191 52.1582679,49.7449191 C54.4957679,49.7449191 56.3913036,51.6627132 56.3913036,54.0252132 Z" id="Stroke-9" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                        <path d="M64.8622857,54.0252132 C64.8622857,56.3877132 62.9647857,58.3035221 60.6272857,58.3035221 C58.2878214,58.3035221 56.3922857,56.3877132 56.3922857,54.0252132 C56.3922857,51.6627132 58.2878214,49.7449191 60.6272857,49.7449191 C62.9647857,49.7449191 64.8622857,51.6627132 64.8622857,54.0252132 Z" id="Stroke-10" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                        <path d="M73.3313036,54.0252132 C73.3313036,56.3877132 71.4357679,58.3035221 69.0963036,58.3035221 C66.7568393,58.3035221 64.8613036,56.3877132 64.8613036,54.0252132 C64.8613036,51.6627132 66.7568393,49.7449191 69.0963036,49.7449191 C71.4357679,49.7449191 73.3313036,51.6627132 73.3313036,54.0252132 Z" id="Stroke-11" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                        <path d="M10.4808393,46.7548676 L3.81208929,46.7548676 C2.24851786,46.7548676 0.981553571,45.4743529 0.981553571,43.8960441 L0.981553571,3.85266176 C0.981553571,2.27236765 2.24851786,0.991852941 3.81208929,0.991852941 L63.2395893,0.991852941 C64.8031607,0.991852941 66.0681607,2.27236765 66.0681607,3.85266176 L66.0681607,16.2329559" id="Stroke-12" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                        <line x1="1.25694643" y1="8.86652206" x2="66.0685536" y2="8.86652206" id="Stroke-13" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="0.98175" y1="20.4632206" x2="9.16496429" y2="20.4632206" id="Stroke-14" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="44.5749464" y1="14.5073382" x2="62.2004821" y2="14.5073382" id="Stroke-15" stroke="#FFFFFF" stroke-width="1.87041592" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

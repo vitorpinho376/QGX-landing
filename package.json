@@ -1,0 +1,25 @@
+{
+  "name": "qgx-landing",
+  "version": "0.1.0",
+  "description": "Redesign for QGX Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./scss -o ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorpinho376/melinda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorpinho376/QGX-landing/issues"
+  },
+  "homepage": "https://github.com/vitorpinho376/QGX-landing/#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1",
+    "sass": "^1.26.3"
+  }
+}

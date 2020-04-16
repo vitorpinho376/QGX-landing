@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="671px" height="671px" viewBox="0 0 671 671" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Artboard Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="172 115.2 216 72 295.2 72 301.6 81.6 298.4 270.4 180.8 270.4 175.2 262.4"></polygon>
+        <filter x="-259.6%" y="-135.8%" width="619.3%" height="439.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="67" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="101" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.662745098   0 0 0 0 0  0 0 0 0.189576049 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="36 250.4 172 250.4 172 112 198.4 86.4 133.6 24.8 84 72 84 46.4 52.8 46.4 52.8 102.4 6.4 151.2 25.6 171.2 36 162.4"></polygon>
+        <filter x="-175.3%" y="-119.5%" width="450.5%" height="398.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="67" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="101" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.411764706   0 0 0 0 0  0 0 0 0.39682583 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-2895.000000, -412.000000)">
+            <g id="Group-10" transform="translate(3077.000000, 594.000000)">
+                <g id="Path-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFB200" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Path-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FF6900" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="Outlined-/-Icon">
+                    <g id="icon" stroke-width="1" fill-rule="evenodd" transform="translate(5.601961, 24.801961)" stroke="#FFFFFF">
+                        <path d="M27.9980393,140.798039 C27.9980393,142.26943 27.9980393,143.86943 27.9980393,145.598039 C27.9980393,162.057374 27.9980393,186.746376 27.9980393,219.665045 C27.9980393,222.178128 30.7264393,224.219296 34.0856393,224.219296 L150.398039,224.798039" id="Stroke-1" stroke-width="5.98533094" stroke-linecap="round"></path>
+                        <path d="M182.153759,50.4211022 L129.082959,0.494930761 C128.444559,-0.100954954 127.448959,-0.0858692393 126.833359,0.517559332 L0.574559332,124.688074 C-0.0562406679,125.306588 -0.0638406679,126.309788 0.551759332,126.943388 L18.9133593,145.634588 C19.5365593,146.268188 20.5625593,146.275731 21.2009593,145.657216 L126.810559,41.8901308 C127.441359,41.2716165 128.452159,41.2716165 129.082959,41.8825879 L152.186959,64.4659022" id="Stroke-3" stroke-width="5.98533094" stroke-linecap="round"></path>
+                        <path d="M85.5980393,170.545486 C85.5980393,171.347977 84.9479771,171.998039 84.1499696,171.998039 L71.8660344,171.998039 L58.2505923,171.998039 C57.4481016,171.998039 56.7980393,171.347977 56.7980393,170.545486 L56.7980393,144.650592 C56.7980393,143.848102 57.4481016,143.198039 58.2505923,143.198039 L71.1980393,143.198039 L84.1499696,143.198039 C84.9479771,143.198039 85.5980393,143.848102 85.5980393,144.650592 L85.5980393,170.545486 Z" id="Stroke-5" stroke-width="5.98533094" stroke-linecap="round"></path>
+                        <path d="M130.53333,146.190705 L107.862755,146.190705 C107.814249,146.533528 107.790705,146.914297 107.790705,147.313606 L107.790705,221.805374 L130.605374,221.805374 L130.605374,147.313606 C130.605374,146.914322 130.581785,146.533577 130.53333,146.190705 Z" id="Stroke-5" stroke-width="5.98533094"></path>
+                        <path d="" id="Stroke-7" stroke-width="5.98533094" stroke-linecap="round"></path>
+                        <polyline id="Stroke-17" stroke-width="5.98533094" points="47.3692793 78.666085 47.3692793 23.3090565 77.2828793 23.3090565 77.2828793 49.2489422"></polyline>
+                    </g>
+                    <path d="M182.4,268.8 C177.909271,268.8 174.262078,265.235953 174.262078,260.841726 L172.8,115.708483 C172.8,114.4489 173.311972,113.237028 174.223771,112.344824 L193.839624,93.1504972 L213.231185,74.1804144 C214.289261,73.1450754 215.717908,72.5629954 217.209942,72.5629954 L291.862078,72.9347718 C296.357683,72.9347718 300,76.4940479 300,80.8930459 L300,165.6 L299.739784,269.734772 L182.4,268.8 Z" id="Stroke-17" stroke="#FFFFFF" stroke-width="5.98533094" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="187.2" y="225.6" width="4.8" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="211.2" y="225.6" width="4.8" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="196.8" y="225.6" width="4.8" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="220.8" y="225.6" width="2.4" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="230.4" y="225.6" width="9.6" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="225.6" y="86.4" width="24" height="24" rx="12"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="259.2" y="86.4" width="24" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="259.2" y="96" width="19.2" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="259.2" y="105.6" width="28.8" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="187.2" y="124.8" width="100.8" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="187.2" y="134.4" width="100.8" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="187.2" y="158.4" width="43.2" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="187.2" y="168" width="76.8" height="4.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="244.8" y="225.6" width="2.4" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="259.2" y="225.6" width="2.4" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="278.4" y="225.6" width="2.4" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="273.6" y="225.6" width="2.4" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="249.6" y="225.6" width="2.4" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="264" y="225.6" width="4.8" height="28.8"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="283.2" y="225.6" width="4.8" height="28.8"></rect>
+                    <path d="M214.881199,72.5639496 L214.881199,107.517377 C214.881199,110.952603 212.033658,113.738953 208.52299,113.738953 L172.80195,113.738953" id="Stroke-19" stroke="#FFFFFF" stroke-width="5.98533094" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
