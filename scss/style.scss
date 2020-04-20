@@ -26,11 +26,11 @@ $--transition: all .4s ease-in-out;
 
 @font-face {
     font-family: 'qgx-icons';
-    src:  url('../icons/qgx-icons.eot?69a856');
-    src:  url('../icons/qgx-icons.eot?69a856#iefix') format('embedded-opentype'),
-      url('../icons/qgx-icons.ttf?69a856') format('truetype'),
-      url('../icons/qgx-icons.woff?69a856') format('woff'),
-      url('../icons/qgx-icons.svg?69a856#qgx-icons') format('svg');
+    src:  url('../icons/qgx-icons.eot?btz4z0');
+    src:  url('../icons/qgx-icons.eot?btz4z0#iefix') format('embedded-opentype'),
+      url('../icons/qgx-icons.ttf?btz4z0') format('truetype'),
+      url('../icons/qgx-icons.woff?btz4z0') format('woff'),
+      url('../icons/qgx-icons.svg?btz4z0#qgx-icons') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -50,26 +50,56 @@ $--transition: all .4s ease-in-out;
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-facebook:before {
+  .icon-api:before {
     content: "\e900";
   }
-  .icon-instagram:before {
+  .icon-arrow-detail:before {
     content: "\e901";
   }
-  .icon-linkedin:before {
+  .icon-arrow:before {
     content: "\e902";
   }
-  .icon-messenger:before {
+  .icon-bank:before {
     content: "\e903";
   }
-  .icon-check:before {
+  .icon-business:before {
     content: "\e904";
   }
-  .icon-chevron:before {
+  .icon-cards:before {
     content: "\e905";
   }
-  .icon-arrow:before {
+  .icon-check:before {
     content: "\e906";
+  }
+  .icon-chevron:before {
+    content: "\e907";
+  }
+  .icon-emprestimo:before {
+    content: "\e908";
+  }
+  .icon-facebook:before {
+    content: "\e909";
+  }
+  .icon-handshake:before {
+    content: "\e90a";
+  }
+  .icon-hold:before {
+    content: "\e90b";
+  }
+  .icon-instagram:before {
+    content: "\e90c";
+  }
+  .icon-linkedin:before {
+    content: "\e90d";
+  }
+  .icon-messenger:before {
+    content: "\e90e";
+  }
+  .icon-transfer:before {
+    content: "\e90f";
+  }
+  .icon-recarga:before {
+    content: "\e910";
   }
 
 body {
@@ -228,8 +258,23 @@ body {
     text-decoration: none !important;
     transition: $--transition;
     font-weight: 600;
+    font-size: 18px;
+    &.primary-link {
+        color: $primary-color;
+        line-height: 24px;
+        &:hover {
+            color: $primary-color--hovered;
+        }
+    }
+    &.neutral-link {
+        color: rgba(27,32,33,0.40);
+        letter-spacing: 0;
+        line-height: 24px;
+        &:hover {
+            color: $primary-color;
+        }
+    }
     &.white {
-        font-size: 18px;
         color: rgba(255,255,255,1);
         padding: 16px;
         border-radius: 8px;
@@ -267,7 +312,7 @@ header {
 }
 
 .main-logo img {
-    width: 80px;
+    width: 100px;
 }
 
 .action-holder {
@@ -346,9 +391,11 @@ header {
     padding: 24px;
 
     & .featured-holder {
-        & img {
-            width: 56px;
+        & .icon {
+            font-size: 56px;
             margin-bottom: 24px;
+            display: block;
+            color: rgba(255,255,255,.7);
         }
     }
    & .heading {
@@ -370,7 +417,7 @@ header {
         justify-content: center;
     
     & img {
-        width: 80%;
+        width: 100%;
     }
  }
 }
@@ -535,6 +582,52 @@ footer {
     }
 }
 
+.image-holder {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-shadow: $dp-shadow;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    & .icon {
+        font-size: 173px;
+        color: rgba(255,255,255,1);
+    }
+    &.primary {
+        background-color: $primary-color;
+    }
+    &.secondary {
+        background-color: $accent-color;
+    }
+    &.darker {
+        background-color: $dark;
+    }
+}
+
+.benefits {
+    z-index: 2;
+    position: relative;
+    padding: 80px 0;
+    box-shadow: 0 20px 60px 0 rgba(0,0,0,0.22);
+    & .title-holder {
+        max-width: 500px;
+    }
+    & .benefit {
+        margin-top: 40px;
+        & .image-holder { 
+            & .icon {
+                font-size: 200px;
+            }
+        }
+        & .heading {
+            margin-bottom: 24px;
+        }
+    }
+}
+
 
 //Animations
 
@@ -603,6 +696,12 @@ footer {
 }
 
 @media (min-width: 768px) { 
+
+    .benefits {
+        & .benefit {
+            margin: 40px 0;
+        }
+    }
 
     .main-hero {
     
@@ -699,6 +798,10 @@ footer {
         font-size: 24px;
         line-height: 32px;
     }
+    &.xmd {
+        font-size: 18px;
+        line-height: 32px;
+    }
     &.md {
         font-size: 16px;
         line-height: 24px;
@@ -786,6 +889,10 @@ footer {
 
 .spread {
     padding: 80px 0;
+}
+
+.bt-spread {
+    padding-bottom: 80px;
 }
 
 .plan-card {
