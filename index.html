@@ -29,16 +29,23 @@
 
     <!-- Header Comp -->
 
-    <header>
+    <header class="main-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col">
+                <div class="col col-md-4">
                     <a href="#" class="main-logo"><img src="img/main-logo.svg"></a>
                 </div>
-                <div class="col">
+                <div class="col col-md-8">
                    <nav class="main-nav desktop">
-                       <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Comece Agora</a>
-                       <a href="https://marketplace-sandbox.qgx.codes/entrar" class="btn lg dark-btn">Entrar</a>
+                       <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Como monetizar</a>
+                       <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Preço</a>
+                       <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Entrar</a>
+                       <a href="https://marketplace-sandbox.qgx.codes/entrar" class="header-cta btn lg dark-btn">Comece Agora</a>
+                   </nav>
+                   <nav class="main-nav mob">
+                    <a href="#" class="menu-link" data-toggle="modal" data-target="#menuModal">
+                        <i class="icon icon-menu"></i>
+                    </a>
                    </nav>
                 </div>
             </div>
@@ -94,7 +101,7 @@
           <div class="row">
               <div class="col">
                 <div class="title-holder">
-                    <h3 class="heading xmd dark">Um mundo de benefícios para o seu negócio</h3>
+                    <h2 class="heading xmd dark">Um mundo de benefícios para o seu negócio</h2>
                 </div>
               </div>
           </div>
@@ -108,7 +115,7 @@
                           <span class="icon icon-hold"></span>
                       </div>
                       <div class="content-holder">
-                          <h4 class="heading sm dark">Democratização do sistema financeiro</h4>
+                          <h3 class="heading sm dark">Democratização do sistema financeiro</h3>
                           <p class="caption md subtle">Ganhe o controle das transações financeiras de toda a sua empresa. Com a QGX, você tem o controle sobre as suas taxas,  históricos de movimentações e muito mais.</p>
                           <a href="#" class="link neutral-link">Comece Agora</a>
                       </div>
@@ -123,7 +130,7 @@
                         <span class="icon icon-handshake"></span>
                     </div>
                     <div class="content-holder">
-                        <h4 class="heading sm dark">Comece agora e cancele quando quiser</h4>
+                        <h3 class="heading sm dark">Comece agora e cancele quando quiser</h3>
                         <p class="caption md subtle">Assim como nosso setup é extremamente rápido e fácil, você não fica preso a nenhum contrato extenso e cheio de armadilhas. Comece agora e cancele quando quiser! <b>Estamos aqui para melhorar o seu negócio e crescer junto com você!</b></p>
                         <a href="#" class="link neutral-link">Comece Agora</a>
                     </div>
@@ -138,9 +145,9 @@
                         <span class="icon icon-transfer"></span>
                     </div>
                     <div class="content-holder">
-                        <h4 class="heading sm dark">Monetize as transações da sua empresa</h4>
+                        <h3 class="heading sm dark">Monetize as transações da sua empresa</h3>
                         <p class="caption md subtle">Aqui, você cobra as taxas, ganha comissões pelas interações de funcionários e clientes, seja por uma recarga de celular, uma solicitação de empréstimo aprovada e muito mais.</p>
-                        <a href="#" class="link primary-link">Comece Agora</a>
+                        <a href="#" class="link primary-link">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -152,6 +159,18 @@
     <!-- Features Section -->
 
     <section id="second-anchor" class="features">
+
+        <div class="title-holder">
+            <img class="features-detail" src="img/asset-features.svg">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="heading lg w-md dark">Um banco de verdade, <b>só que melhor!</b></h3>
+                    </div>
+                </div>
+            </div>
+        </img>
+
         <div class="container">
 
             <!-- Feature Row -->
@@ -282,12 +301,11 @@
         </div>
     </section>
 
-    <!-- Our Plans Section -->
+    <!-- Our Plans Section 
 
     <section class="our-plans">
-        <div class="container">
+        <div class="container"> 
 
-            <!-- Heading Block -->
 
             <div class="row spread">
                 <div class="col">
@@ -298,11 +316,10 @@
                 </div>
             </div>
 
-            <!-- Plans Row -->
 
             <div class="row bt-spread">
 
-                <!-- Plan Card -->
+             
 
                 <div class="col-sm-12 col-md-4">
                     <div class="plan-card">
@@ -375,7 +392,7 @@
                     </div>
                 </div>
 
-                <!-- Plan Card -->
+                
 
                 <div class="col-sm-12 col-md-4">
                     <div class="plan-card">
@@ -448,7 +465,7 @@
                     </div>
                 </div>
 
-                 <!-- Plan Card -->
+                
 
                  <div class="col-sm-12 col-md-4">
                     <div class="plan-card featured">
@@ -523,7 +540,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Bottom Pool Section -->
 
@@ -532,7 +549,7 @@
            <h6 class="heading md white">Nossa plataforma permite que você opere como um banco digital</h6>
            <p class="caption md subtle-w">e tenha uma fonte alternativa de receita. E o mais incrível é que você vai poder oferecer produtos financeiros com a própria marca para o setor ou nicho que têm influência.</p>
            <div class="action-holder">
-              <a href="#" class="btn neutral-btn md">Comece Agora</a>
+              <a href="#" class="btn primary-btn md">Comece Agora</a>
           </div>
        </div>
       </section>
@@ -577,6 +594,50 @@
             </div>
           </div>
       </footer>
+
+      <!-- Modal -->
+        <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-4">
+                            <a href="#" class="main-logo"><img src="img/subtle-logo.svg"></a>
+                        </div>
+                        <div class="col col-md-8">
+                           <nav class="main-nav mob">
+                            <a href="#" class="menu-link close-link" data-dismiss="modal" aria-label="Close"><i class="icon icon-close"></i></a>
+                           </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <nav class="mob-nav">
+                                <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Home</a>
+                                <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Como monetizar</a>
+                                <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Preço</a>
+                                <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link white">Entrar</a>
+                                <a href="https://marketplace-sandbox.qgx.codes/entrar" class="link primary-link">Começar Agora</a>
+                            </nav>
+                            <nav class="mob-social-nav">
+                                <a target="_blank" href="https://www.facebook.com/qgxpagamentos" class="link white"><i class="icon icon-facebook"></i> Facebook</a>
+                                <a target="_blank" href="https://www.instagram.com/qgxpagamentos/" class="link white"><i class="icon icon-instagram"></i> Instagram</a>
+                                <a target="_blank" href="https://www.linkedin.com/company/qgx-pagamentos/" class="link white"><i class="icon icon-linkedin"></i> LinkedIn</a>
+                                <a target="_blank" href="https://m.me/qgxpagamentos" class="link white"><i class="icon icon-messenger"></i> Messenger</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+        </div>
+        
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/app.js"></script>
 
     
 </body>
