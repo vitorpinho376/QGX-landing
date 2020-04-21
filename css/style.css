@@ -3082,6 +3082,9 @@ body {
   overflow-x: hidden;
   width: 100%; }
 
+.dark-bg {
+  background: #1b2021; }
+
 .desktop {
   display: none; }
 
@@ -3240,6 +3243,30 @@ body {
   left: 0;
   z-index: 3; }
 
+.tab-nav {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start; }
+  .tab-nav .tab-item {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-bottom: 4px solid rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30%;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out; }
+    .tab-nav .tab-item:hover {
+      background: rgba(255, 255, 255, 0.2); }
+    .tab-nav .tab-item.selected {
+      background: white;
+      border-bottom: 4px solid #ffb200;
+      color: #1b2021; }
+
 .main-header {
   position: absolute;
   top: 0;
@@ -3366,13 +3393,29 @@ body {
   .extra-features .simple-content {
     margin: 40px 0; }
 
-.our-plans {
-  background: #fafafa; }
-  .our-plans .heading-block {
-    padding: 40px 0;
-    text-align: center; }
-    .our-plans .heading-block .heading {
-      margin-bottom: 24px; }
+.our-plans .heading-block {
+  padding: 40px 0;
+  text-align: center; }
+  .our-plans .heading-block .heading {
+    margin-bottom: 24px; }
+
+.plan-hero {
+  background: #1b2021; }
+  .plan-hero .row {
+    height: 360px; }
+    .plan-hero .row .hero-content {
+      padding-bottom: 32px; }
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+  .pricing .action-holder {
+    justify-content: flex-end;
+    margin: 24px 0; }
+    .pricing .action-holder .btn {
+      margin: 0;
+      width: 100%; }
 
 .plan-card {
   background: white;
@@ -3480,6 +3523,51 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+
+.plan-navigation {
+  background: #303435;
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2); }
+
+.plan-information {
+  padding: 64px 0;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%); }
+  .plan-information .pricing {
+    padding: 40px 0; }
+    .plan-information .pricing .price {
+      font-weight: 600;
+      margin: 0;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FFFFFF; }
+    .plan-information .pricing .caption {
+      margin: 8px 0; }
+    .plan-information .pricing .icon {
+      margin-left: 16px;
+      color: #3CCE1B; }
+  .plan-information .plan-title {
+    margin-bottom: 32px; }
+  .plan-information .features-list .plan-item {
+    display: block;
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0; }
+    .plan-information .features-list .plan-item .icon {
+      color: #3CCE1B;
+      margin-right: 16px; }
+  .plan-information:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; }
+  .plan-information.standard:after {
+    background: url(../img/standard-bg.jpg) no-repeat bottom;
+    background-size: auto 100%;
+    bottom: -40%; }
 
 footer {
   padding: 40px 0;
@@ -3637,6 +3725,26 @@ footer {
     max-width: 90%; } }
 
 @media (min-width: 992px) {
+  .plan-information {
+    padding: 64px 0;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%); }
+    .plan-information.standard:after {
+      background: url(../img/standard-bg.jpg) no-repeat center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+  .tab-nav .tab-item {
+    min-width: 200px; }
+  .pricing {
+    padding: 0;
+    justify-content: flex-end;
+    text-align: right; }
+    .pricing .price {
+      font-size: 60px;
+      line-height: 60px; }
+    .pricing .action-holder {
+      justify-content: flex-end; }
   .desktop {
     display: block; }
   .mob {
