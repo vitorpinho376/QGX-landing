@@ -4016,7 +4016,7 @@ footer {
   background-color: #1b2021; }
   footer .ft-logo-holder {
     text-align: center;
-    padding: 24px; }
+    padding: 0; }
     footer .ft-logo-holder img {
       width: 80px; }
   footer .footer-nav {
@@ -4036,7 +4036,8 @@ footer {
       margin: 8px 0; }
   footer .signature {
     text-align: center;
-    font-weight: 300;
+    font-weight: 600;
+    max-width: 620px;
     margin: 24px auto;
     display: block;
     color: rgba(255, 255, 255, 0.31);
