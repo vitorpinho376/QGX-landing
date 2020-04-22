@@ -119,6 +119,10 @@ body {
     background: $dark;
 }
 
+.margin-bt-24 {
+    margin-bottom: 24px;
+}
+
 .desktop {
     display: none;
 }
@@ -672,11 +676,14 @@ form .btn {
     justify-content: flex-start;
 
     & .action-holder {
+        display: flex;
+        flex-direction: column;
         justify-content: flex-end;
         margin: 24px 0;
 
         & .btn {
             margin: 0;
+            margin-bottom: 16px;
             width: 100%
         }
     }
@@ -745,7 +752,13 @@ form .btn {
 
     & .action-holder {
         border-top: 1px solid rgba(0,0,0,.05);
-        padding: 16px 32px;
+        padding: 16px 32px 0;
+        display: flex;
+        flex-direction: column;
+        & .btn {
+            width: 100%;
+            margin: 0 0 8px;
+        }
     }
 }
 
@@ -867,7 +880,7 @@ form .btn {
             font-size: 16px;
             color: #FFFFFF;
             letter-spacing: 0;
-
+            
             & .icon {
                 color: #3CCE1B;
                 margin-right: 16px;
@@ -889,6 +902,32 @@ form .btn {
         background: url(../img/standard-bg.jpg) no-repeat bottom;
         background-size: auto 100%;
         bottom: -40%;
+    }
+
+    &.advanced:after {
+        background: url(../img/advanced-bg.jpg) no-repeat bottom;
+        background-size: auto 100%;
+        bottom: -60%;
+    }
+    
+    &.enterprise:after {
+        background: url(../img/enterprise-bg.jpg) no-repeat bottom;
+        background-size: auto 100%;
+        bottom: -60%;
+    }
+}
+
+.politics {
+    & .heading {
+        margin-top: 120px;
+    }
+   & p {
+    color: rgba(255,255,255,.7);
+    }
+
+    & strong {
+        font-size: 20px;
+        color: rgba(255,255,255,1);
     }
 }
 
@@ -1017,6 +1056,30 @@ footer {
     }
 }
 
+.margin-top-24 {
+    margin-top: 24px;
+}
+
+.error-comp {
+    font-size: 300px;
+    margin: 0;
+    font-weight: 600;
+    color: rgba(255,255,255,.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sucess-comp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 600;
+    color: rgba(60,206,27,1);
+    padding: 30px 0;
+}
+
+
 
 //Animations
 
@@ -1124,7 +1187,15 @@ footer {
         margin: 24px auto;
         display: flex;
         justify-content: center;
-        .btn {
+      
+        &.centered {
+            text-align: center;
+            & .btn {
+                width: 100%;
+                margin: 0;
+            }
+        }
+        & .btn {
             display: initial;
             width: auto;
             margin: 0 8px;
@@ -1171,6 +1242,22 @@ footer {
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;  
+        }
+
+        &.advanced:after {
+            background: url(../img/advanced-bg.jpg) no-repeat top fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover; 
+        }
+
+        &.enterprise:after {
+            background: url(../img/enterprise-bg.jpg) no-repeat top fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover; 
         }
     }
 

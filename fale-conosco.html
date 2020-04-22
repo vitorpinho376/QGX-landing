@@ -12,18 +12,18 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="icon" href="favicon.png" />
     <!-- Open Graph -->
-    <meta property="og:url" content="https://qgx.digital/entrar"/>
+    <meta property="og:url" content="https://qgx.digital/fale-conosco"/>
     <meta itemprop="image" property="og:image" content="https://qgx.digital/tile.png"/>
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
-    <meta property="og:title" content="Entrar | QGX Pagamentos"/>
+    <meta property="og:title" content="Fale com um especialista | QGX Pagamentos"/>
     <meta property="og:description" content="Nossa plataforma permite que você opere como um banco digital e tenha uma fonte alternativa de receita. E o mais incrível é que você vai poder oferecer produtos financeiros com a própria marca para o setor ou nicho que têm influência."/>
     <meta property="og:site_name" content="QGX"/>
     <meta property="og:type" content="website"/>
 
     <meta name="HandheldFriendly" content="true">
     <meta name="author" content="Vitor Pinho"/>
-    <title>Entrar | QGX Pagamentos</title>
+    <title>Fale com um especialista | QGX Pagamentos</title>
 </head>
 <body>
 
@@ -62,30 +62,100 @@
                     <!-- Main Title -->
 
                     <div class="hero-content">
-                        <h1 class="heading lg white">Seja bem-vindo!</h1>
-                        <p class="caption lg subtle-w">Entre com a sua conta QGX abaixo:</p>
+                        <h1 class="heading lg white">Fale com um especialista</h1>
+                        <p class="caption lg subtle-w">Entre em contato conosco para começar a criação do seu banco digital:</p>
                     </div>
+
+                    <!-- Form -->
 
                     <form>
 
-                    <!-- Login Form -->
+                        <div class="form-holder">
+                            <h3 class="heading xmd white">Informações Pessoais</h3>
+                            <div class="form-group">
+                               <label>Nome e Sobrenome</label>
+                               <input type="text" class="form-control" placeholder="Digite o seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Celular</label>
+                                <input type="phone" class="form-control" placeholder="(DDD) 00000-0000" required>
+                             </div>
+                             <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="e-mail" class="form-control" placeholder="Digite o seu e-mail corporativo" required>
+                             </div>
+                            
+                        </div>
                     
                     <div class="form-holder">
-                         <div class="form-group">
-                            <label>E-mail</label>
-                            <input type="e-mail" class="form-control" placeholder="Digite o seu e-mail cadastrado" required>
+                        <h3 class="heading xmd white">Informações Corporativas</h3>
+                        <div class="form-group">
+                           <label>Nome da Empresa</label>
+                           <input type="text" class="form-control" placeholder="Digite o nome da sua empresa" required>
+                        </div>
+                        <div class="form-group">
+                            <label>CNPJ</label>
+                            <input type="text" class="form-control" placeholder="Digite o CNPJ da Empresa" required>
+                         </div>
+                        <div class="form-group">
+                            <label>Segmento</label>
+                            <select class="form-control">
+                                <option>Selecione a área de atuação da sua empresa</option>
+                            </select>
                          </div>
                          <div class="form-group">
-                            <label>Senha</label>
-                            <input type="e-mail" class="form-control" placeholder="Digite a sua senha" required>
+                            <label>Cargo</label>
+                            <select class="form-control">
+                                <option>Selecione o seu tipo de cargo</option>
+                            </select>
                          </div>
                          <div class="form-group">
-                            <a href="#" class="link white">Esqueci minha senha</a>
+                            <label>Fase do Negócio</label>
+                            <select class="form-control">
+                                <option>Selecione a fase do seu negócio</option>
+                            </select>
                          </div>
-                         
                     </div>
 
-                    <button type="submit" class="btn lg primary-btn">Entrar</button>
+                         <!-- Form 2 -->
+                    
+                    <div class="form-holder">
+                        <h3 class="heading xmd white">Interesse no projeto</h3>
+                        <div class="form-group">
+                           <label class="w-bd subtle-w margin-bt-24">Área de Interesse</label>
+                           <div class="form-check">
+                            <input type="checkbox" class="form-check-input">
+                            <label class="form-check-label" for="exampleCheck1">Subadquirência</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input">
+                            <label class="form-check-label" for="exampleCheck1">Conta Digital</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input">
+                            <label class="form-check-label" for="exampleCheck1">Cartão Pré-Pago</label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="w-bd subtle-w margin-bt-24">Qual é o melhor horário para contato?</label>
+                            <div class="form-check">
+                             <input type="checkbox" class="form-check-input">
+                             <label class="form-check-label" for="exampleCheck1">Manhã</label>
+                           </div>
+                           <div class="form-check">
+                             <input type="checkbox" class="form-check-input">
+                             <label class="form-check-label" for="exampleCheck1">Tarde</label>
+                           </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="w-bd subtle-w margin-bt-24">Fale mais sobre o seu interesse</label>
+                            <textarea class="form-control" placeholder="Forneça alguns detalhes sobre o seu projeto" required>
+                            </textarea>
+                         </div>
+
+                    </div>
+
+                    <button type="submit" class="btn lg primary-btn">Enviar</button>
 
                 </form>
 
