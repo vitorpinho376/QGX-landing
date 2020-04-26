@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="671px" height="671px" viewBox="0 0 671 671" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M125,223.5 L132,226 L129,236.5 L135,245 L139,249.5 C141.163786,249.081893 142.663786,249.081893 143.5,249.5 C144.336214,249.918107 145.169547,251.084774 146,253 L146,259 L151.5,268 L161.5,272.5 L162,280 L168,289 L177,293 L177,300.5 L183.5,308.5 L191,311 L205.5,301 L211.5,307.5 L220,307.5 L226.5,300 L228.5,297.5 L236.5,301.5 L247,299 L251,294 L253,286 L261.5,287.5 L272.5,286 L299.5,291 L302,289 L317.5,211.5 L320,202 L307.5,201 L301.5,199 L301.5,189 L297,174.5 L283.5,164 L269,160 L254.5,157 L247.5,154 L237.5,144.5 L191,134 L177.5,133.5 L167.5,137.5 L161.5,144 L158,151 L140,147 L124,221.5 L125,223.5 Z" id="path-1"></path>
+        <filter x="-107.1%" y="-94.6%" width="314.3%" height="336.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="42" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="63" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.662745098   0 0 0 0 0  0 0 0 0.189576049 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="321 197.5 300.5 297 355 309 374 208"></polygon>
+        <filter x="-285.7%" y="-150.7%" width="671.4%" height="476.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="42" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="63" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.411764706   0 0 0 0 0  0 0 0 0.39682583 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="87.5 125 67 224.5 121.5 236.5 140.5 135.5"></polygon>
+        <filter x="-285.7%" y="-150.7%" width="671.4%" height="476.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="42" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="63" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.411764706   0 0 0 0 0  0 0 0 0.39682583 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Exportables" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-204.000000, -230.000000)" id="Icon">
+            <g transform="translate(320.000000, 346.000000)">
+                <g id="Path-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFB200" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Path-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FF6900" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="Path-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FF6900" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <g id="Outlined-/-Icon" transform="translate(219.500000, 219.500000) rotate(12.000000) translate(-219.500000, -219.500000) translate(35.000000, 35.000000)">
+                    <g id="icon" transform="translate(36.135018, 41.900643)">
+                        <g id="Group-27" transform="translate(122.030100, 189.188711)"></g>
+                        <g id="Group-58" transform="translate(232.667769, 1.436308)"></g>
+                        <line x1="211.786857" y1="196.252933" x2="242.846435" y2="196.252933" id="Stroke-1" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polyline id="Stroke-2" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round" points="1.49737204 77.1312024 55.1638095 77.1312024 55.1638095 84.392194 55.1638095 180.102308 1.49737204 180.102308"></polyline>
+                        <line x1="66.1434295" y1="166.404809" x2="55.1638095" y2="166.404809" id="Stroke-4" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M55.1638095,88.2950786 L74.0763062,88.2950786 C74.0763062,75.7489308 84.2132099,65.5770377 96.7162014,65.5770377 L137.579835,65.5770377 C151.695332,65.5770377 159.271674,67.9268995 163.930923,73.8950606" id="Stroke-5" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M169.481505,212.284844 L168.792747,211.536791 C172.828061,215.911275 172.552558,222.741323 168.193122,226.782434 C163.833686,230.823546 157.027132,230.555223 152.999921,226.18074 L151.395519,224.432573" id="Stroke-7" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M165.60339,168.517246 L191.889654,197.081482 C196.500284,202.098315 195.843938,210.237456 190.423003,215.26242 C185.002069,220.287384 176.866617,220.295515 172.23978,215.286813 L165.489948,207.952642" id="Stroke-9" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M172.654656,136.652632 L211.662693,179.031454 C216.427281,184.210907 215.900584,192.480144 210.471546,197.505108 C205.050612,202.538203 196.793614,202.408107 192.029026,197.228654 L151.068156,152.735769" id="Stroke-11" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M198.720517,124.861042 L230.144108,159.003151 C234.698017,163.954936 234.001155,172.045291 228.580221,177.070255 C223.151184,182.095219 215.06435,182.152136 210.502338,177.200351 L172.750272,136.76484" id="Stroke-13" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="Stroke-15" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round" points="296.510441 99.6500335 242.844004 99.6500335 242.844004 106.911025 242.844004 202.621139 296.510441 202.621139"></polyline>
+                        <path d="M242.844004,106.081662 L223.923404,106.081662 C223.923404,88.2991441 209.572919,73.8991261 191.85157,73.8991261 L151.231027,73.8991261 C148.095151,73.8991261 145.088923,75.1431705 142.868689,77.3710672 L98.2938634,122.107882 C97.6699293,122.725839 97.6699293,123.725953 98.2938634,124.34391 C109.070907,135.166284 126.541063,135.166284 137.32621,124.34391 L159.641983,101.951109 L164.53622,109.52921 C170.248863,118.392011 181.293308,122.148537 191.203326,118.587155 L203.009456,114.35903" id="Stroke-17" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M70.8002469,185.747668 L66.5542536,182.1375 C62.0975813,178.340318 61.5465746,171.640366 65.3306945,167.16018 L77.5419766,152.719507 C81.3260965,148.247452 88.0030019,147.694543 92.4596742,151.491725 L96.7056675,155.110024 C101.170443,158.907205 101.713347,165.607157 97.9292266,170.079213 L85.7179445,184.519886 C81.9419276,188.991941 75.2569192,189.54485 70.8002469,185.747668 Z" id="Stroke-19" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M91.1883072,203.105747 L86.9423139,199.495579 C82.4856416,195.698398 81.9346349,188.998446 85.7187548,184.518259 L107.872468,158.320147 C111.656588,153.848091 118.333493,153.303314 122.790165,157.100495 L127.036159,160.710663 C131.492831,164.507845 132.043838,171.207797 128.259718,175.679852 L106.106005,201.886096 C102.321885,206.35002 95.6449795,206.902929 91.1883072,203.105747 Z" id="Stroke-21" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M111.576367,220.463827 L107.330374,216.853659 C102.873702,213.056477 102.322695,206.356525 106.106815,201.88447 L132.109472,171.132991 C135.893592,166.660936 142.570498,166.108028 147.02717,169.905209 L151.273163,173.523508 C155.729835,177.312559 156.272739,184.020642 152.488619,188.484566 L126.494065,219.244175 C122.709945,223.7081 116.03304,224.261008 111.576367,220.463827 Z" id="Stroke-23" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M129.911928,236.074552 L126.370899,233.066079 C122.651603,229.894985 122.197833,224.317112 125.349916,220.584979 L146.652809,195.395111 C149.804892,191.671109 155.371681,191.207641 159.082874,194.370604 L162.623902,197.387208 C166.343198,200.550171 166.796968,206.136175 163.644885,209.860177 L142.341992,235.050045 C139.189909,238.782178 133.62312,239.237515 129.911928,236.074552 Z" id="Stroke-25" stroke="#FFFFFF" stroke-width="3.74083184" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
