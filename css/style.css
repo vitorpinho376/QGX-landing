@@ -3742,6 +3742,12 @@ form .btn {
       position: relative;
       left: -10%; }
 
+.table {
+  background-color: #FFF; }
+  .table th, .table td {
+    padding: 16px 32px;
+    border: 1px solid #d4d4d4; }
+
 .detail-asset {
   position: absolute;
   top: -50%;
@@ -3795,7 +3801,7 @@ form .btn {
   background-color: #FFF; }
   .features .title-holder {
     position: relative;
-    padding: 120px 0; }
+    padding: 120px 0 0; }
     .features .title-holder .heading {
       position: relative;
       z-index: 2;

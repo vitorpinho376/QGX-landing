@@ -5,8 +5,6 @@
 @import "node_modules/bootstrap/scss/_modal";
 @import "node_modules/bootstrap/scss/_forms";
 
-
-
 html {
     scroll-behavior: smooth;
   }
@@ -548,6 +546,14 @@ form .btn {
     }
 }
 
+.table {
+    background-color: #FFF;
+    & th, & td {
+        padding: 16px 32px;
+        border: 1px solid $subtle-grey;
+    }
+}
+
 .detail-asset {
     position: absolute;
     top: -50%;
@@ -616,7 +622,7 @@ form .btn {
 
     & .title-holder {
         position: relative;
-        padding: 120px 0;
+        padding: 120px 0 0;
 
         & .heading {
             position: relative;
